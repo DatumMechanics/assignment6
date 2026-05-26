@@ -55,4 +55,4 @@ The assignment is worth 100 total points, broken down as follows:
 * 20 points: assignment readme.txt file providing an explanation in your own words of what your code for each section listed above is doing. 
 
 
-Note that we will only consider changes to `pq.c` when grading your work.  Changes to other files will be ignored.
+Note that we will only consider changes to `heap.py` when grading your work.  Changes to other files will be ignored.
