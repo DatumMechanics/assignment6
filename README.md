@@ -8,7 +8,7 @@ Your work for this assignment will be limited to the file `heap.py`.  In other f
 
 Your task for this assignment is to implement a heap-based priority queue.  Specifically, in the file `pq.c`, you must define the `struct pq` and implement the following functions:
 
-  * `__init__()` - allocates and initializes a heap-based priority queue
+  * `__init__()` - allocates and initializes a heap-based priority queue. You can use a Python list
   * `__del__()` - frees all memory allocated to a heap
   * `is_empty()` - should tell the user whether a heap is empty
   * `insert()` - should insert an element with a specified priority value and data into a heap
@@ -43,7 +43,7 @@ As always, we'll be using Gradescope. Please submit your pq.c file through Grade
 
 The assignment is worth 100 total points, broken down as follows:
 
-* 5 points: `class definition` defines a heap-based priority queue
+* 5 points: `class definition` defines a heap-based priority queue using a python list
 * 5 points: `__init__()` correctly allocates and initializes a heap-based priority queue
 * 5 points: `__del__()` correctly frees all memory associated with a priority queue
 * 5 points: `is_empty()` correctly determines whether a priority queue contains any elements or not
