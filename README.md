@@ -28,10 +28,9 @@ Here are some specific notes on how the priority queue you'll implement should b
 
 ## Testing your work
 
-In addition to the starter code provided, you are also provided with some application code in `test.c` to help verify that your functions are behaving the way you want them to.  In particular, the code in `test.c` calls the functions you'll implement in this assignment, passing them appropriate arguments, and then prints the results.  You can use the provided `Makefile` to compile all of the code in the project together, and then you can run the testing code as follows:
+In addition to the starter code provided, you are also provided with some application code in `main.py` to help verify that your functions are behaving the way you want them to.  In particular, the code in `main.py` calls the functions you'll implement in this assignment, passing them appropriate arguments, and then prints the results.  You can use the provided `Makefile` to compile all of the code in the project together, and then you can run the testing code as follows:
 ```
-make
-./test
+python main.py
 ```
 You can see some example output from a correct solution to the assignment in the file `example_output.txt`.
 
