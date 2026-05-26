@@ -6,7 +6,7 @@ Your work for this assignment will be limited to the file `heap.py`.  In other f
 
 ## Implement a heap-based priority queue
 
-Your task for this assignment is to implement a heap-based priority queue.  Specifically, in the file `pq.c`, you must define the `struct pq` and implement the following functions:
+Your task for this assignment is to implement a heap-based priority queue.  Specifically, in the file `heap.py`, you must define the heap and implement the following functions:
 
   * `__init__()` - allocates and initializes a heap-based priority queue. You can use a Python list
   * `__del__()` - frees all memory allocated to a heap
@@ -37,7 +37,7 @@ You can see some example output from a correct solution to the assignment in the
 
 ## Submission
 
-As always, we'll be using Gradescope. Please submit your pq.c file through Gradescope. 
+As always, we'll be using Gradescope. Please submit your heap.py file through Gradescope. 
 
 ## Grading criteria
 
@@ -51,7 +51,7 @@ The assignment is worth 100 total points, broken down as follows:
 * 5 points: `max_priority()` correctly returns the *highest* priority value in a priority queue
 * 20 points: `insert()` correctly inserts a value into a priority queue with the specified priority and restores the heap property as needed
 * 20 points: `max_dequeue()` correctly removes the element with the *highest* priority from a priority queue and returns its value, restoring the heap property as needed
-* 10 points: `insert()` and `max_dequeue()` are both *O(log n)*, and `pq_max()` and `pq_max_priority()` are both *O(1)*
+* 10 points: `insert()` and `max_dequeue()` are both *O(log n)*, and `max()` and `max_priority()` are both *O(1)*
 * 20 points: assignment readme.txt file providing an explanation in your own words of what your code for each section listed above is doing. 
 
 
